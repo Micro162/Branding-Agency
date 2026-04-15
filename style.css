@@ -977,25 +977,19 @@ footer {
     }
 
 
-    /* 1. Возвращаем горизонтальное расположение (как на ПК) */
     .containerTimeOneTall {
         display: flex;
         flex-direction: row;
-        /* Оставляем в ряд */
         justify-content: flex-start;
         align-items: flex-start;
         width: 100%;
         margin-left: 0;
-        /* Убираем огромный отступ с ПК */
     }
 
-    /* 2. Настраиваем колонку с иконками часов */
     .fotoClock {
         display: flex;
         flex-direction: column;
-        /* Иконки друг под другом */
         margin-right: 15px;
-        /* Отступ от часов до текста */
     }
 
     .clockFoto,
@@ -1003,34 +997,26 @@ footer {
         display: none;
     }
 
-    /* 3. Настраиваем колонку с текстом адресов */
     .textFooterTall {
         display: flex;
         flex-direction: column;
         text-align: left;
-        /* Выравнивание текста по левому краю */
     }
 
-    /* 4. Исправляем отступы часов, чтобы они совпадали с текстом */
     .clockFoto {
         margin-top: 5px;
-        /* Подберите значение, чтобы иконка была вровень с заголовком */
     }
 
     .clockFotoTwo {
         margin-top: 55px;
-        /* Регулирует отступ между первой и второй иконкой часов */
     }
 
-    /* 5. Убираем перекрытие футером (черная полоска) */
     .contactTime {
         padding-bottom: 80px;
-        /* Даем место, чтобы контент не залезал под футер */
     }
 
     footer {
         position: relative;
-        /* Чтобы он просто шел следом, а не плавал сверху */
         width: 100%;
     }
 }
