@@ -198,8 +198,8 @@ body {
 
 .fotoThree {
     border-radius: 10px;
-    width: 600px;
-    height: 600px;
+ max-width: 350px;
+    max-height: 400px;
 }
 
 .conteinerFotoThree {
@@ -218,7 +218,7 @@ body {
 
 .foto5 {
     border-radius: 10px;
-    max-width: 550px;
+ max-width: 550px;
     max-height: 550px;
 }
 
@@ -262,7 +262,7 @@ body {
 
 .foto8 {
     border-radius: 10px;
-    max-width: 550px;
+max-width: 550px;
     max-height: 550px;
 }
 
@@ -287,7 +287,7 @@ body {
 
 .foto9 {
     border-radius: 10px;
-    max-width: 550px;
+ max-width: 550px;
     max-height: 550px;
 }
 
@@ -316,7 +316,7 @@ body {
 
 .conteinerOneRiview {
     background-color: rgb(255, 255, 255);
-    min-width: 300px;
+      min-width: 300px;
     min-height: 400px;
     justify-content: center;
     display: flex;
@@ -378,7 +378,7 @@ body {
 
 .foto12 {
     border-radius: 10px;
-    max-width: 550px;
+ max-width: 550px;
     max-height: 550px;
 }
 
@@ -391,9 +391,8 @@ body {
     border-radius: 10px;
     align-self: flex-start;
     margin-left: 15px;
-
+  
 }
-
 .conteinerFotoOne,
 .conteinerFotoThree,
 .conteinerFoto5,
@@ -452,11 +451,10 @@ body {
 .conteinerFoto9:hover .textCardMidle,
 .conteinerFoto12:hover .textCardMidle {
     transform: scale(1.05);
-}
-
+} 
 .galereuContainer {
     margin-top: 0px;
-
+ 
     background-color: #F4F4F4;
     display: flex;
     margin: 0 auto;
@@ -504,12 +502,10 @@ body {
     margin-bottom: 0px;
     margin-top: 8px;
 }
-
-.galereuFotoImg {
-
-    max-width: 900px;
+.galereuFotoImg{
+  
+max-width: 900px;
 }
-
 .conteinerFoto13 {
     margin-top: 0px;
     background-color: #F4F4F4;
@@ -530,13 +526,11 @@ body {
     flex-direction: column;
     padding-bottom: 50px;
     margin-bottom: 60px;
-
+    
 }
-
-.fotoServis {
+.fotoServis{
     max-width: 900px;
 }
-
 .textServisHerader {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -640,12 +634,10 @@ body {
     margin-bottom: 70px;
 
 }
-
-.contactTime {
-    display: flex;
-    justify-content: flex-end;
+.contactTime{
+  display: flex;
+  justify-content: flex-end;
 }
-
 .emailContainer {
     align-items: center;
     justify-content: center;
@@ -850,20 +842,16 @@ footer {
         max-width: 90%;
         margin: 0px;
     }
-
-    .galereuFotoImg {
-        display: none;
-    }
-
+.galereuFotoImg{
+    display: none;
+}
     .imgMainPage {
 
         display: none;
     }
-
-    .containerServis {
-        margin-top: 40px;
-    }
-
+.containerServis{
+    margin-top: 40px;
+}
     .underImg {
         margin: 100px;
     }
