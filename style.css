@@ -121,7 +121,7 @@ body {
     flex-direction: column;
     margin: 0 auto;
     position: relative;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 0px;
     height: auto;
 }
@@ -143,7 +143,6 @@ body {
     background-color: #FFFFFF;
     flex-direction: column;
     border-radius: 10px;
-
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -403,7 +402,7 @@ body {
         max-width: 350px;
     max-height: 600px;
 }
-/* .conteinerFotoOne,
+.conteinerFotoOne,
 .conteinerFotoThree,
 .conteinerFoto5,
 .conteinerFoto6,
@@ -461,7 +460,7 @@ body {
 .conteinerFoto9:hover .textCardMidle,
 .conteinerFoto12:hover .textCardMidle {
     transform: scale(1.05);
-}  */
+} 
 .galereuContainer {
     margin-top: 0px;
  
@@ -514,8 +513,7 @@ body {
 }
 .galereuFotoImg{
   
-    max-width: 1000px;
-
+max-width: 900px;
 }
 .conteinerFoto13 {
     margin-top: 0px;
@@ -537,8 +535,11 @@ body {
     flex-direction: column;
     padding-bottom: 50px;
     margin-bottom: 60px;
+    
 }
-
+.fotoServis{
+    max-width: 900px;
+}
 .textServisHerader {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -642,7 +643,10 @@ body {
     margin-bottom: 70px;
 
 }
-
+.contactTime{
+  display: flex;
+  justify-content: flex-end;
+}
 .emailContainer {
     align-items: center;
     justify-content: center;
